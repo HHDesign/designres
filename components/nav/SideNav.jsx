@@ -12,7 +12,7 @@ SideNav = React.createClass({
       "basics": {
         text: "Basics"
       },
-      "visual": { 
+      "visual": {
         header: true,
         text: "Visual"
       },
@@ -46,7 +46,7 @@ SideNav = React.createClass({
         id: "visual_style-guides",
         text: "Style Guides"
       },
-      "ui": { 
+      "ui": {
         header: true,
         text: "UI"
       },
@@ -70,25 +70,27 @@ SideNav = React.createClass({
         id: "ui_metrics",
         text: "Metrics"
       }
-    }
-    var menuItems = menuData.keys.map(function(id) {
+    };
+    var menuItems = Object.getOwnPropertyNames(menuData).map(function(id) {
       var menuItem = menuData[id];
       if (menuItem.header) {
-        return (
-          <MenuHeader {...menuItem}>{menuItem.text}</MenuHeader>
-        )
-      } 
-      else {
-        return (
-          <MenuItem {...menuItem}>{menuItem.text}</MenuItem>
-        )
+        return ( < MenuHeader key={id} {...menuItem
+        } > {
+          menuItem.text
+        } < /MenuHeader>)
       }
-      
-      
-      
+      else {
+        return ( < MenuItem key={id} {...menuItem
+        } > {
+          menuItem.text
+        } < /MenuItem>)
+      }
+
+
+
     })
     return (
-        <nav className="ui vertical text menu" id="sidenav">
+      <nav className="ui vertical text menu" id="sidenav">
           {menuItems}
         </nav>
     );

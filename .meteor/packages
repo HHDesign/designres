@@ -24,6 +24,9 @@ kadira:flow-router
 meteortoys:allthings
 
 
-npm-container
 kadira:react-layout
 meteorhacks:npm
+
+
+npm-container
+cosmos:browserify

@@ -15,7 +15,7 @@
     },
     "console": {
         "@expanded": true,
-        "@height": "153",
+        "@height": 188,
         "@maximized": "false",
         "json()": {
             "meta": {
@@ -45,7 +45,7 @@
                             "id": "devel_533",
                             "cwd": "",
                             "width": 524,
-                            "height": 127
+                            "height": 162
                         }
                     },
                     "editorType": "terminal",
@@ -59,14 +59,30 @@
                         "tab1"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448263659011
-                        },
                         "filter": true,
                         "title": "Immediate (Javascript (browser))",
                         "tooltip": "Immediate (Javascript (browser))",
                         "immediate": {
+                            "folds": [],
+                            "scrolltop": 5,
+                            "scrollleft": 0,
+                            "selection": {
+                                "start": {
+                                    "row": 8,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 8,
+                                    "column": 0
+                                },
+                                "isBackwards": false
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0,
                             "type": "jsbrowser",
                             "history": [
                                 "!!false",
@@ -74,7 +90,12 @@
                                 "ls"
                             ],
                             "pos": -1
-                        }
+                        },
+                        "hash": "a7fc8e59e3877672749281d2ca0b77fc2974541b",
+                        "meta": {
+                            "timestamp": 1448263659011
+                        },
+                        "changed": false
                     },
                     "editorType": "immediate",
                     "active": false
@@ -98,7 +119,7 @@
                             "id": "devel_900",
                             "cwd": "",
                             "width": 524,
-                            "height": 127
+                            "height": 162
                         }
                     },
                     "editorType": "terminal",
@@ -122,20 +143,20 @@
     },
     "ext": {
         "counters": {
-            "@ace": 2,
+            "@ace": 1,
             "@acestatus": 1,
             "@divider": 4,
-            "@document": 21,
+            "@document": 14,
             "@form": 5,
             "@immediate": 1,
-            "@menu": 9,
-            "@menuitem": 22,
+            "@menu": 5,
+            "@menuitem": 13,
             "@pane": 2,
             "@preferences": 1,
-            "@session": 21,
-            "@tab": 21,
+            "@session": 13,
+            "@tab": 3,
             "@tree": 2,
-            "@undoManager": 21
+            "@undoManager": 14
         }
     },
     "findinfiles": {
@@ -152,7 +173,7 @@
     },
     "panecycle": {
         "json()": [
-            "tab20",
+            "tab10",
             "tab0"
         ]
     },
@@ -184,26 +205,25 @@
         }
     },
     "projecttree": {
-        "@scrollpos": 208,
+        "@scrollpos": -10,
         "@showfs": true,
         "expanded": {
             "json()": [
                 "/",
                 "!favorites",
                 "!fsroot",
-                "/New Folder",
                 "/client",
                 "/client/lib",
-                "/.meteor",
                 "/components",
                 "/components/Nav",
-                "/client/lib/semantic-ui/packages",
-                "/client/lib/semantic-ui/packages/npm-container",
-                "/client/lib/semantic-ui/.meteor",
                 "/.meteor/local",
                 "/.meteor/local/shell",
                 "/.meteor/local/plugin-cache/meteorhacks_npm/1.5.0",
-                "/client/lib/semantic-ui/definitions"
+                "/client/lib/semantic-ui/definitions",
+                "/.meteor/local/isopacks",
+                "/.meteor/local/isopacks/npm-container",
+                "/components/nav",
+                "/components/pages"
             ]
         },
         "favorites": {
@@ -240,54 +260,30 @@
             "focus": "tab5",
             "meta": {
                 "accessList": [
-                    "tab20",
-                    "tab19",
-                    "tab18",
-                    "tab12",
                     "tab10",
+                    "tab2",
                     "tab8",
                     "tab7",
-                    "tab6",
-                    "tab4"
+                    "tab19"
                 ]
             },
             "name": "pane0",
             "nodes": [
                 {
                     "type": "tab",
-                    "name": "tab4",
-                    "path": "/.meteor/release",
+                    "name": "tab8",
+                    "path": "/packages.json",
                     "className": [
-                        "tab4"
+                        "tab8"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1448263311427
+                            "timestamp": 1448265739401
                         },
                         "filter": true,
-                        "title": "release",
-                        "tooltip": "/.meteor/release",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab6",
-                    "path": "/FlowRouter.jsx",
-                    "className": [
-                        "tab6"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448265500810
-                        },
-                        "filter": true,
-                        "title": "FlowRouter.jsx",
-                        "tooltip": "/FlowRouter.jsx",
+                        "title": "packages.json",
+                        "tooltip": "/packages.json",
                         "ace": {}
                     },
                     "editorType": "ace",
@@ -315,83 +311,23 @@
                 },
                 {
                     "type": "tab",
-                    "name": "tab8",
-                    "path": "/packages.json",
-                    "className": [
-                        "tab8"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448265739402
-                        },
-                        "filter": true,
-                        "title": "packages.json",
-                        "tooltip": "/packages.json",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
                     "name": "tab10",
-                    "path": "/components/Nav/SideNav.jsx",
+                    "path": "/components/nav/SideNav.jsx",
                     "className": [
                         "tab10"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1448270010688
+                            "timestamp": 1448271602848
                         },
                         "filter": true,
                         "title": "SideNav.jsx",
-                        "tooltip": "/components/Nav/SideNav.jsx",
+                        "tooltip": "/components/nav/SideNav.jsx",
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab12",
-                    "path": "/components/Nav/MenuItem.jsx",
-                    "className": [
-                        "tab12"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448270387818
-                        },
-                        "filter": true,
-                        "title": "MenuItem.jsx",
-                        "tooltip": "/components/Nav/MenuItem.jsx",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
-                },
-                {
-                    "type": "tab",
-                    "name": "tab18",
-                    "path": "/components/Nav/MenuHeader.jsx",
-                    "className": [
-                        "tab18"
-                    ],
-                    "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448270415071
-                        },
-                        "filter": true,
-                        "title": "MenuHeader.jsx",
-                        "tooltip": "/components/Nav/MenuHeader.jsx",
-                        "ace": {}
-                    },
-                    "editorType": "ace",
-                    "active": false
+                    "active": true
                 },
                 {
                     "type": "tab",
@@ -401,37 +337,59 @@
                         "tab19"
                     ],
                     "document": {
-                        "changed": false,
-                        "meta": {
-                            "timestamp": 1448265017873
-                        },
                         "filter": true,
                         "title": "index.js",
                         "tooltip": "/packages/npm-container/index.js",
-                        "ace": {}
+                        "ace": {
+                            "folds": [],
+                            "scrolltop": 0,
+                            "scrollleft": 49,
+                            "selection": {
+                                "start": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "end": {
+                                    "row": 0,
+                                    "column": 0
+                                },
+                                "isBackwards": true
+                            },
+                            "options": {
+                                "guessTabSize": true,
+                                "useWrapMode": false,
+                                "wrapToView": true
+                            },
+                            "firstLineState": 0
+                        },
+                        "hash": "f8380eac8c7264a90832d7a7d590ace6076d8f08",
+                        "meta": {
+                            "timestamp": 1448270857500
+                        },
+                        "changed": false
                     },
                     "editorType": "ace",
                     "active": false
                 },
                 {
                     "type": "tab",
-                    "name": "tab20",
-                    "path": "/.meteor/packages",
+                    "name": "tab2",
+                    "path": "/components/pages/Home.jsx",
                     "className": [
-                        "tab20"
+                        "tab2"
                     ],
                     "document": {
                         "changed": false,
                         "meta": {
-                            "timestamp": 1448270604320
+                            "timestamp": 1448271283905
                         },
                         "filter": true,
-                        "title": "packages",
-                        "tooltip": "/.meteor/packages",
+                        "title": "Home.jsx",
+                        "tooltip": "/components/pages/Home.jsx",
                         "ace": {}
                     },
                     "editorType": "ace",
-                    "active": true
+                    "active": false
                 }
             ],
             "skin": "editor_tab",
@@ -441,7 +399,7 @@
     },
     "tree_selection": {
         "json()": [
-            "/.meteor/packages"
+            "/components/nav/MenuItem.jsx"
         ]
     }
 }
